@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/byte-buddy-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/client-combined-3.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/client-combined-3.13.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/gson-2.8.4.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/okhttp-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/okio-1.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/testng-7.0.0-beta3.jar"/>
+	<classpathentry kind="lib" path="C:/Work/XSSF Poi Jar/avalon-framework-4.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Work/XSSF Poi Jar/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Work/XSSF Poi Jar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Work/XSSF Poi Jar/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="C:/Work/XSSF Poi Jar/logkit-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Work/XSSF Poi Jar/ooxml-schemas-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Work/XSSF Poi Jar/openxml4j-1.0-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Work/XSSF Poi Jar/poi-ooxml-3.5-beta4.jar"/>
+	<classpathentry kind="lib" path="C:/Work/XSSF Poi Jar/servlet-api-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Work/XSSF Poi Jar/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Work/XSSF Poi Jar/xml-apis-1.0.b2.jar"/>
+	<classpathentry kind="lib" path="C:/Work/XSSF Poi Jar/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Work/selenium Poi Ojdbc TestNG Jar File/poi-ooxml-3.5-beta5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
