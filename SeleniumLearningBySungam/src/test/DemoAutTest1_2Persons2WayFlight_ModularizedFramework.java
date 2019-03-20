@@ -15,10 +15,11 @@ import pageFlows.SelectFlightPage;
 import setup.TestRunSetup;
 
 public class DemoAutTest1_2Persons2WayFlight_ModularizedFramework {
-	static WebDriver driver;
+	
 	public static void main(String[] args) throws Exception {
-		try {
-			driver = null;
+		
+			WebDriver driver = null;
+			try {
 			// Global variables
 			String browser = Constants.BROWSER_TYPE;
 			String url = Constants.BASE_URL;
@@ -26,7 +27,7 @@ public class DemoAutTest1_2Persons2WayFlight_ModularizedFramework {
 			// Setup
 			
 			new TestDataPool(1);
-			 driver = TestRunSetup.launch(browser, url);
+			 driver = TestRunSetup.launch(url);
 			
 			
 			//Page Flows
@@ -53,12 +54,9 @@ public class DemoAutTest1_2Persons2WayFlight_ModularizedFramework {
 			new BookAFlightPage().creditcard(driver);
 			
 			// Booking confirmation and Signout
-
-			new FlightConfirmationPage().conFirmationMsg(driver);
-			new FlightConfirmationPage().confirmationNumber(driver);
 			new FlightConfirmationPage().validation_Confirm(driver);
-			// closing applicaton
-			// driver.close();
+			// Sign out
+			new FlightConfirmationPage().logout(driver);
 		} catch (Exception e) {
 			e.printStackTrace();
 			//throw e;// Stop the execution

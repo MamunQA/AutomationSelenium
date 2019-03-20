@@ -10,7 +10,12 @@ import java.util.Properties;
 
 import data.TestDataPool;
 
+/**
+ *Read & Write from/to Property File
+ *@author Sangam
+ */
 public class PropertyUtils {
+
 
 	public static String propertyFile_Read(String path, String prop){
 

@@ -1,6 +1,7 @@
 package pageObjects;
 
-public class RegisterPageObj {
+public class RegisterObj {
+	
 	public static final String textbox_FirstName = "//input[contains(@name,'firstName')]";
 	public static final String textbox_LastName = "//input[contains(@name,'lastName')]";
 	public static final String textbox_Phone = "//input[contains(@name,'phone')]";
@@ -14,5 +15,13 @@ public class RegisterPageObj {
 	public static final String textbox_Password = "//input[contains(@name,'password')]";
 	public static final String textbox_ConfirmPassword = "//input[contains(@name,'confirmPass')]";
 	public static final String link_Submit = "//input[contains(@name,'register')]";
+
+
+	
+
+	
+
+
+	
 
 }

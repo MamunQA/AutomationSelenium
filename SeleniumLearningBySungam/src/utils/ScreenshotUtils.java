@@ -1,6 +1,5 @@
 package utils;
 
-import java.awt.AWTException;
 import java.awt.Dimension;
 import java.awt.Rectangle;
 import java.awt.Robot;
@@ -15,6 +14,7 @@ import javax.imageio.ImageIO;
  * @author Sangam
  */
 public class ScreenshotUtils {
+	
 	
 	
 	/**

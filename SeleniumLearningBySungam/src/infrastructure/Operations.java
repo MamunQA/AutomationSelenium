@@ -33,13 +33,13 @@ public class Operations {
 		WebElement ele = driver.findElement(By.xpath(xpathExpression));
 		Select sel = new Select(ele);
 		sel.selectByVisibleText(inputValue);
-		System.out.println(inputValue);
 		System.out.println("selectDropdown - "+xpathExpression + " - "+inputValue);
 	}
 
 	// Get text from page
 	public String getText(WebDriver driver, String xpathExpression) {
 		String value = driver.findElement(By.xpath(xpathExpression)).getText();
+		System.out.println("getText - "+xpathExpression +" - "+value);
 		return value;
 	}
 
@@ -73,6 +73,7 @@ public class Operations {
 	// Implicit wait
 	public void implicitlyWait(WebDriver driver, long maxTimeout) {
 		driver.manage().timeouts().implicitlyWait(maxTimeout, TimeUnit.SECONDS);
+		System.out.println("implicitWait - waited for "+maxTimeout+" seconds." );
 
 	}
 

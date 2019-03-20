@@ -12,7 +12,6 @@ import static java.awt.event.KeyEvent.VK_9;
 import static java.awt.event.KeyEvent.VK_A;
 import static java.awt.event.KeyEvent.VK_AMPERSAND;
 import static java.awt.event.KeyEvent.VK_ASTERISK;
-import static java.awt.event.KeyEvent.VK_AT;
 import static java.awt.event.KeyEvent.VK_B;
 import static java.awt.event.KeyEvent.VK_BACK_QUOTE;
 import static java.awt.event.KeyEvent.VK_BACK_SLASH;

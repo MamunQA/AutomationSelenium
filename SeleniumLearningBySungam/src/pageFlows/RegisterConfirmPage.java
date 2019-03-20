@@ -13,11 +13,10 @@ public class RegisterConfirmPage {
 		op.implicitlyWait(driver, 30);
 		// String capturedValue = driver.findElement(By.xpath(RegisterConfirmPageObj.text_DearFnLn)).getText();//linearway
 		// return capturedValue;
-
+//validation dear msg
 		String actualValue_RegConfDear = op.getText(driver, RegisterConfirmPageObj.text_DearFnLn);
-		String expectedValue_RegConfDear = "Dear MD Mamun,";
+		String expectedValue_RegConfDear = "Dear MD Mamun,";//Requirement 
 
-		// Validation
 		if (expectedValue_RegConfDear.equals(actualValue_RegConfDear)) {
 			System.out.println("============DearConf===================");
 			System.out.println("Pass - Dear confirmation :: " + expectedValue_RegConfDear);
@@ -26,17 +25,18 @@ public class RegisterConfirmPage {
 			System.out.println("Fail - Dear confirmation");
 
 	}
-	public void registerConfirm_UserName(WebDriver driver) {
-		op.implicitlyWait(driver, 30);
-		String actualValue_RegConfUserName = op.getText(driver, RegisterConfirmPageObj.confirm_UserName);
+	//validation note
+	public void registerConfirm_Note(WebDriver driver) {
+		op.implicitlyWait(driver, 30);	
 		String expectedValue_RegConfUserName = "Note: Your user name is AutomationTest.";
+		String actualValue_RegConfUserName = op.getText(driver, RegisterConfirmPageObj.confirm_UserName);
 
 		if (expectedValue_RegConfUserName.equals(actualValue_RegConfUserName)) {
 			System.out.println("=============UserNameConf==================");
-			System.out.println("Pass - Note confirmation :: " + expectedValue_RegConfUserName);
+			System.out.println("Pass - Note confirmation :: " + actualValue_RegConfUserName);
 			System.out.println("============================================");
 		} else
-			System.out.println("Fail - Note confirmation");
+			System.out.println("Fail - Note confirmation "+expectedValue_RegConfUserName );
 		op.implicitlyWait(driver, 30);
 		ReportingUtils.reportResult("Pass", "Registration Confirmation", "Registration Confirmation");
 

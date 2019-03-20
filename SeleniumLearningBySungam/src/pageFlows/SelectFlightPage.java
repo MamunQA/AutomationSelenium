@@ -9,14 +9,14 @@ import utils.ReportingUtils;
 
 public class SelectFlightPage {
 	Operations op = new Operations();
-
+		
 	public void departReturnFlight(WebDriver driver){
 		//Depart Flight
-		//driver.findElement(By.xpath(SelectFlightObj.Select_Depart)).click();
-		new Operations().ClickRadioBtn(driver, SelectFlightObj.Select_Depart);
+		driver.findElement(By.xpath(SelectFlightObj.radiobutton_DepartUnifiedAirlines)).click();
+		new Operations().ClickRadioBtn(driver, SelectFlightObj.radiobutton_DepartUnifiedAirlines);
 
 		//Return Flight
-		new Operations().ClickRadioBtn(driver, SelectFlightObj.Select_Return);
+		new Operations().ClickRadioBtn(driver, SelectFlightObj.radiobutton_ReturnUnifiedAirlines);
 		
 		ReportingUtils.reportResult("Pass", "Select Flight Page", "Select Flight Page");
 		
@@ -27,7 +27,7 @@ public class SelectFlightPage {
 
 	// click on contuinue btn
 	public void continueButton(WebDriver driver) {
-		op.clickLink(driver, SelectFlightObj.Button_Continue);
+		op.clickLink(driver, SelectFlightObj.button_Continue);
 
 	}
 }

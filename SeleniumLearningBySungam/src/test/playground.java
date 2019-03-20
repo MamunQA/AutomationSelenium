@@ -1,16 +1,11 @@
 package test;
 
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
-
-import javax.crypto.NoSuchPaddingException;
-
 import utils.PasswordUtils;
 import utils.StringUtils;
 
 public class playground {
-	public static void main(String[] args) throws Exception, Exception, Exception {
 
+	public static void main(String[] args) throws Exception {
 		StringUtils.subString("Selenium Automation", "um ", "ma");
 		StringUtils.replaceString("$12345", "$", "");
 		

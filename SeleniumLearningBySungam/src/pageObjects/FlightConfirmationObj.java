@@ -12,5 +12,5 @@ public class FlightConfirmationObj {
 	public static final String text_TotalPrice = "//table/tbody/tr[2]/td[2]/font/b/font/font/b/font";
 	
 	//logout element
-	public static final String link_Logout = "//img[contains(@src,'Logout')]";
+	public static final String button_Logout = "//img[contains(@src,'Logout')]";
 }

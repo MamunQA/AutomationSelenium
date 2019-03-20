@@ -1,8 +1,12 @@
 package pageObjects;
 
 public class SelectFlightObj {
-	public static final String Select_Depart = "//input[contains(@name,'outFlight')][contains(@value,'Unified')]";
-	public static final String Select_Return = "//input[contains(@name,'inFlight')][contains(@value,'Unified')]";
-	public static final String Button_Continue = "//input[@name='reserveFlights']";
+	
+	public static final String radiobutton_DepartUnifiedAirlines = "//input[contains(@value,'Unified Airlines') and contains(@name,'outFlight')]";
+	public static final String radiobutton_ReturnUnifiedAirlines = "//input[contains(@value,'Unified Airlines') and contains(@name,'inFlight')]";
+	public static final String button_Continue = "//input[ contains(@name,'reserveFlights')]";
+
+
 
 }
+

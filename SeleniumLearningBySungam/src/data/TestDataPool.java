@@ -1,7 +1,6 @@
 package data;
 
 import java.util.HashMap;
-
 import utils.ExcelUtils;
 import utils.FileSystemUtils;
 
@@ -29,10 +28,10 @@ public TestDataPool(int tcRowNumber){
 		stack = Thread.currentThread().getStackTrace()[2].getClassName(); // From elicpse, the test case is 2nd stack
 	}
 	String packageName = stack.substring(0,stack.lastIndexOf("."));
-	String className = stack; //e.g.regressionTest.test.Testcase100
+ 	String className = stack; //e.g.regressionTest.test.Testcase100
 	System.out.println("Test Case Details:");
 	System.out.println("Complete TestCase Name = "+stack);
-	
+  	
 	//Deleting the old execution's screenshots
 	FileSystemUtils.deleteFilesWithExtension(Constants.screenshotFolderPath, ".png");
 	
